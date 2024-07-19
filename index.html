@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="">
+    <title>Barber Shop</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <nav>
+        <a href="/">Home</a> <!--/stands for index page i.e index.html**/ -->
+        <a href="#hairstyles">Hairstyles</a> <!--#is used to show that this is a link to a section and not another page. # is also used to make reference to an ID attribute-->
+        <a href="#pricing">Pricing</a>
+        <a href="#media">Media</a>
+        <!-- <a href="#about">About Us</a>
+        <a href="#contact">Contact Us</a> -->
+    </nav>
+    <!-- Hero -->
+    <section class="hero">
+        <h1>Welcome To Barber Shop</h1>
+        <img src="logo.png" alt="logo">
+    </section>
+
+    <!-- Sub Hero Section -->
+    <section class="sub-hero">
+        <h2>More than just a haircut, we're your partner in <span>crafting a signature look</span> that reflects your unique personality.</h2>
+        <!-- <img src="barbing.jpeg" alt="a barber" width="100%"> or-->
+        <img src="barbing.jpeg" alt="a barber">
+    </section>
+
+    <!--Hairstyles  -->
+    <section id="hairstyles">
+        <h2>Hairstyles You Need to Try in 2024</h2>
+        <ul>
+            <li>Short Curly Haircut & Low Drop Fade.</li>
+            <li>Short Textured Quiff & Mid Fade.</li>
+            <li>High Temp Fade & Short Spiked Wavy Hair.</li>
+            <li>High Fade Mohawk.</li>
+            <li>Classic Short Comb-over.</li>
+            <li>Side Swept Crew Cut.</li>
+            <li>Buzz Cut with Beard.</li>
+            <li>Curly Flat Top.</li>
+        </ul>
+    </section>
+
+    <!-- Pricing -->
+    <section id="pricing">
+        <h2>Pricing</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Type</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Adult haircut</td>
+                    <td>#1000</td>
+                </tr>
+                <tr>
+                    <td>Youth haircut</td>
+                    <td>#800</td>
+                </tr>
+                <tr>
+                    <td>Beard trim</td>
+                    <td>#300</td>
+                </tr>
+                <tr>
+                    <td>Edge up</td>
+                    <td>#300</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Media -->
+    <section id="media">
+        <h2>Have fun while we make you beautiful</h2>
+        <h4>Listen to nature</h4>
+        <audio controls>
+            <source src="audio.ogg"/>
+        </audio>
+        <h4>Watch movie</h4>
+        <video controls>
+            <source src="video.mp4">
+        </video>
+    </section>
+
+    <!-- About Us -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We're not just cutting hair, we're building legacies. Since 2022, we've been a cornerstone of the community, crafting sharp styles and even sharper confidence for generations of men. Our founder, Unclebigbay, believed in the power of a great haircut to transform not just one's appearance, but one's outlook. Every snip, shave, and style is fueled by that same passion, ensuring you walk out feeling empowered and ready to conquer the world. We're more than just barbers, we're your confidantes, your stylists, your cheerleaders. Come join us, experience the legacy, and discover what a truly great haircut can do.</p>
+    </section>
+
+    <!-- Contact Us -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <h3>Don't wait another minute. Walk in for a walk-in or schedule your next transformation online.</h3>
+        <form action="">
+            <label for="">Name</label>
+            <input type="text"> 
+            <label for="">Adress</label>
+            <input type="text">
+            <label for="">Other Details</label>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+            <button>Submit</button>
+        </form>
+        <h3>OR</h3>
+        <p>Chat with us on <a href="https://www.linkedin.com/in/maryjane-devlop/" target="_blank">linkedin</a> </p>
+    </section>
+</body>
+</html>

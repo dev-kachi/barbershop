@@ -1,0 +1,199 @@
+/* Reset browser preset stylings */
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Make img, video and audio tag to take 100% of the screen to fix overflow or horizontal scroll. */
+video, audio, img{
+    width: 100%;
+}
+
+nav{
+    background-color: orange;
+    padding: 16px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 16px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    /* align-items: center; */
+    padding: 12px;
+}
+
+.hero h1{
+    font-size: 40px;
+    text-align: center;
+}
+
+/* Sub Hero Section */
+.sub-hero{
+    margin-top: 60px;
+    background-color: orange;
+    padding: 60px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sub-hero h2{
+    text-align: center;
+    font-size: 25px;
+}
+
+.sub-hero span{
+    color: dodgerblue;
+}
+
+.sub-hero img{
+    border-radius: 8px;
+}
+
+/* Hairstyles Section */
+#hairstyles{
+    margin: 60px auto 0 auto;
+    padding: 0 20px;
+}
+
+#hairstyles h2{
+    text-align: center;
+    color: orange;
+    margin-bottom: 20px;
+}
+
+#hairstyles ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+/* Pricing Section */
+#pricing{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 20px;
+}
+
+#pricing h2{
+    color: orange;
+    text-align: center;
+}
+
+#pricing table{
+    border-collapse: collapse;
+}
+
+#pricing table th, td{
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 8px;
+    width: 50%;
+}
+
+#pricing table tr:nth-child(even){
+    background-color: #ddd;
+}
+
+/* Media Section */
+#media{
+    background-color: black;
+    padding: 60px 20px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+#media h2{
+    text-align: center;
+    color: orange;
+}
+
+#media h4{
+    color: #fff;
+}
+
+/* About Section */
+#about{
+    margin-top: 60px;
+    padding:0px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#about h2{
+    color: orange;
+}
+
+#about p{
+    font-size: 20px;
+}
+
+/* Contact section */
+#contact{
+    background-color: orange;
+    margin-top: 60px;
+    padding: 60px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact h2{
+    color: #fff;
+    font-size: 40px;
+}
+
+#contact h3{
+    text-align: center;
+}
+
+#contact form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#contact form label{
+    font-size: 18px;
+}
+
+#contact form input, 
+#contact form textarea{
+    padding: 10px 12px;
+    border: orange;
+    border-radius: 4px;
+}
+
+#contact form button{
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 12px;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+}
